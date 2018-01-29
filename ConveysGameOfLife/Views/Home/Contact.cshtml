@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Conway’s Game of life</h1>
+<h4>Press Continue to get the results</h4>
+<input type="submit" id="btnSubmit" value="Continue" />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<table id="tableConveys">
+
+</table>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var matrix = [];
+        $(function () {
+            $('#btnSubmit').click(function (event) {
+                event.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/GetConveyMatrix",
+                    data: { "matrix":matrix},
+                    dataType: "json",
+                    success: function (data) {
+                        var dispalyMatix = JSON.parse(data);
+                        matrix = data;
+                        $("#tableConveys").append('<tr><td>' + dispalyMatix[0].join(",") + '</td></tr>');
+                        $("#tableConveys").append('<tr><td>' + dispalyMatix[1].join(",") + '</td></tr>');
+                        $("#tableConveys").append('<tr><td>' + dispalyMatix[2].join(",") + '</td></tr>');
+                        $("#tableConveys").append('<tr><td>' + dispalyMatix[3].join(",") + '</td></tr><br/>');
+                    },
+                    error: function () {
+                        alert("Error occured!!")
+                    }
+                });
+            });
+        });
+    });
+</script>
+

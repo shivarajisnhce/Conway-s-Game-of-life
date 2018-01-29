@@ -1,0 +1,9 @@
+D:\Practice\ConveysGameOfLife\Conways.Utilities\bin\Debug\netstandard2.0\Conways.Utilities.deps.json
+D:\Practice\ConveysGameOfLife\Conways.Utilities\bin\Debug\netstandard2.0\Conways.Utilities.dll
+D:\Practice\ConveysGameOfLife\Conways.Utilities\bin\Debug\netstandard2.0\Conways.Utilities.pdb
+D:\Practice\ConveysGameOfLife\Conways.Utilities\obj\Debug\netstandard2.0\Conways.Utilities.csprojResolveAssemblyReference.cache
+D:\Practice\ConveysGameOfLife\Conways.Utilities\obj\Debug\netstandard2.0\Conways.Utilities.csproj.CoreCompileInputs.cache
+D:\Practice\ConveysGameOfLife\Conways.Utilities\obj\Debug\netstandard2.0\Conways.Utilities.AssemblyInfoInputs.cache
+D:\Practice\ConveysGameOfLife\Conways.Utilities\obj\Debug\netstandard2.0\Conways.Utilities.AssemblyInfo.cs
+D:\Practice\ConveysGameOfLife\Conways.Utilities\obj\Debug\netstandard2.0\Conways.Utilities.dll
+D:\Practice\ConveysGameOfLife\Conways.Utilities\obj\Debug\netstandard2.0\Conways.Utilities.pdb
