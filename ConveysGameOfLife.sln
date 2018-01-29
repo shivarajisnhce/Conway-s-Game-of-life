@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conways.Domain", "Conways.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conveys.Domain.Tests", "Conveys.Domain.Tests\Conveys.Domain.Tests.csproj", "{FB200922-9A84-4BCE-BDFA-AC824C349899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "..\ConsoleApp3\ConsoleApp3\ConsoleApp3.csproj", "{58EAF62F-5648-41CD-8072-D38EB3A3E98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conways.Utilities", "Conways.Utilities\Conways.Utilities.csproj", "{61D26BA5-4B96-4132-BF2E-BC1AA73EADE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conways.Utilities", "Conways.Utilities\Conways.Utilities.csproj", "{61D26BA5-4B96-4132-BF2E-BC1AA73EADE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\..\..\Source\Repos\ConsoleApp1\ConsoleApp1\ConsoleApp1.csproj", "{869AA68D-9DF8-4478-825C-E12E6A615479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{FB200922-9A84-4BCE-BDFA-AC824C349899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB200922-9A84-4BCE-BDFA-AC824C349899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB200922-9A84-4BCE-BDFA-AC824C349899}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58EAF62F-5648-41CD-8072-D38EB3A3E98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58EAF62F-5648-41CD-8072-D38EB3A3E98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58EAF62F-5648-41CD-8072-D38EB3A3E98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58EAF62F-5648-41CD-8072-D38EB3A3E98C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{61D26BA5-4B96-4132-BF2E-BC1AA73EADE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{61D26BA5-4B96-4132-BF2E-BC1AA73EADE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61D26BA5-4B96-4132-BF2E-BC1AA73EADE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61D26BA5-4B96-4132-BF2E-BC1AA73EADE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869AA68D-9DF8-4478-825C-E12E6A615479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869AA68D-9DF8-4478-825C-E12E6A615479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869AA68D-9DF8-4478-825C-E12E6A615479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869AA68D-9DF8-4478-825C-E12E6A615479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
